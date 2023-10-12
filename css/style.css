@@ -1,0 +1,60 @@
+
+@font-face {
+	font-family:'hard';
+	src: url('../fonts/HARD_ROCK.ttf') format('truetype'),
+}
+@font-face {
+	font-family:'crazy';
+	src: url('../fonts/rocknroll_typo_crazy.ttf') format('truetype'),
+}
+@font-face {
+    font-family:'thedark';
+	src: url('../fonts/TheDark.ttf') format('truetype'),
+}
+.nav-link{
+    color: red;
+    font-size: 1.2em;
+    
+    }
+.nav-link:hover{
+    color: antiquewhite;
+}
+.navbar{
+    font-family:'crazy';
+    width: 60%;
+}
+body{
+    background-color: black;
+    background-image: url('../img/test.png');
+ background-size: cover;
+    background-repeat:no-repeat;
+    background-position: 50%;
+}
+.titre p{
+    color: white;
+    font-family:'crazy';
+    font-size: 1.3em;
+}
+.card-title{
+    color: red;
+    font-family: 'hard';
+}
+.card-text{
+    font-family: 'thedark';
+} 
+.btn{
+    font-family: 'hard';
+}
+.groupe img{
+    background-color: white;
+    padding: 3px;
+}
+.groupe p{
+    color: white;
+}
+.groupe p::first-letter{
+    text-transform:capitalize;
+}
+form{
+    width:60%;
+}
